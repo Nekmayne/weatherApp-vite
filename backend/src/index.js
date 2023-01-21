@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const appId = process.env.APPID;
 
-const port = process.env.PORT;
+const port = process.env.PORT || 9000;
 
 const app = new Koa();
 
