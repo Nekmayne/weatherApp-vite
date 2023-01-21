@@ -22,7 +22,7 @@ function Forecast({ weatherData, offset }) {
                   .format("HH:mm")}
               </p>
               <img
-                src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                 alt="Weather Icon"
                 width={90}
               />

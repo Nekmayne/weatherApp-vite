@@ -14,7 +14,7 @@ function Weather({ weatherData, localTime }) {
           </div>
           <div className="flex flex-row justify-center">
             <img
-              src={`http://openweathermap.org/img/wn/${weatherData.list[1].weather[0].icon}@2x.png`}
+              src={`https://openweathermap.org/img/wn/${weatherData.list[1].weather[0].icon}@2x.png`}
               alt="Weather Icon"
             />
             <div className="flex flex-col align-middle ">
