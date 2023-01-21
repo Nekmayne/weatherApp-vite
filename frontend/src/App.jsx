@@ -11,7 +11,7 @@ function App() {
 
   const getWeather = async () => {
     const response = await fetch(
-      `http://localhost:9000/weather/${city}&units=metric`
+      `https://still-fog-5870.fly.dev/weather/${city}&units=metric`
     );
     const data = await response.json();
     setWeatherData(data);
