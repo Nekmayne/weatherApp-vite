@@ -32,7 +32,7 @@ function App() {
   const getWeatherByLocation = async (lat, lon) => {
     try {
       const response = await fetch(
-        `http://localhost:9000/location?lat=${lat}&lon=${lon}&units=metric`
+        `https://still-fog-5870.fly.dev/location?lat=${lat}&lon=${lon}&units=metric`
       );
       const data = await response.json();
       setWeatherData(data);
