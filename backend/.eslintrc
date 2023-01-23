@@ -8,6 +8,6 @@
   "rules": {
     "quotes": [2, "double", { "avoidEscape": true}],
     "semi": [2, "always"],
-    "comma-dangle": [2, "always-multiline"]
+    "comma-dangle": [2, "never"]
   }
 }
