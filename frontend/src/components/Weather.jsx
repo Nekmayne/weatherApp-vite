@@ -10,8 +10,11 @@ function Weather({ weatherData, localTime }) {
             <p>{moment.utc(localTime()).format("DD.MM.YYYY H:mm")}</p>
           </div>
           <div className="text-white py-2 text-3xl flex flex-row justify-center">
-            <p>{weatherData.city.name}</p>
+            <p>
+              {weatherData.city.name} | {weatherData.city.country}
+            </p>
           </div>
+
           <div className="flex flex-row justify-center">
             <img
               src={`https://openweathermap.org/img/wn/${weatherData.list[1].weather[0].icon}@2x.png`}
