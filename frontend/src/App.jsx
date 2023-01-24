@@ -11,6 +11,7 @@ function App() {
   const [temperature, setTemperature] = useState(0);
   const [timezoneOffset, setTimezoneOffset] = useState(0);
   const [message, setMessage] = useState(null);
+  const [coordinates, setCoordinates] = useState({});
 
   const getWeatherByCity = async () => {
     try {
@@ -36,6 +37,7 @@ function App() {
       );
       const data = await response.json();
       setWeatherData(data);
+      setTimezoneOffset(data.city.timezone);
       setTemperature(data.list[0].main.temp);
     } catch {
       (error) => console.log(error);
