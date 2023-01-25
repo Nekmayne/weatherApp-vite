@@ -10,13 +10,13 @@ This app was build based on the Eficode's weatherapp exercise. Backend is done u
 
 # Deployment
 
-git clone https://github.com/Nekmayne/weatherapp.git
+```git clone https://github.com/Nekmayne/weatherapp.git```
 
-create a new .env file in backends root folder and add APPID=Your Openweathermap ID
+create a new ```.env``` file in backends root folder and add APPID=Your Openweathermap ID
 
-run docker-compose up --build
+run ```docker-compose up --build```
 
-go to http://localhost:3000/weatherapp/
+go to ```http://localhost:3000/weatherapp/```
 
 # Live Server
 
