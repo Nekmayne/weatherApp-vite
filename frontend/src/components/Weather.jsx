@@ -40,7 +40,7 @@ function Weather({ weatherData, localTime }) {
             </div>
             <div className="border p-2">
               <p className="text-2xl">
-                {weatherData.list[3].wind.speed.toFixed(0)} km/h
+                {weatherData.list[3].wind.speed.toFixed(0)} m/s
               </p>
               <p className="text-sm text-gray-100">Wind speed</p>
             </div>
