@@ -3,10 +3,10 @@
 This app was build based on the Eficode's weatherapp exercise. Backend is done using Node.js and Koa and frontend is done with Vite and Tailwind.css.
 
 ## Main view
-![weather1](https://user-images.githubusercontent.com/75587191/214377634-c1366b80-9fbd-46af-85c7-239d17728d7f.png)
+![weather3](https://user-images.githubusercontent.com/75587191/215576376-c103d456-9ca0-48d5-b2da-13c51493796f.png)
 
 ## Mobile view
-![weather2](https://user-images.githubusercontent.com/75587191/214377640-915ec283-a160-41ee-a0a5-e84b396c913c.png)
+![weather4](https://user-images.githubusercontent.com/75587191/215576382-2db3959b-51e6-4778-bc14-5343847d5e2b.png)
 
 # Deployment
 
